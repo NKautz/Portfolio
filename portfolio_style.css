@@ -1,0 +1,161 @@
+a {
+  text-decoration: none;
+}
+
+html {
+  height:100%;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  margin:0;
+}
+
+#left {
+  float: left;
+}
+
+#right {
+  float: right;
+}
+
+.profile-container {
+  text-align: center;
+  padding-top: 5px;}
+
+#bio {
+  text-align: center;
+}
+
+.profile-description {
+  text-align: left;
+  padding: 0;
+  margin: 10px;
+}
+
+#profile-paragraph-indent {
+  padding-left: 50px;
+}
+
+#img-desc {
+  padding-top: 5px;
+}
+
+#profile-img {
+  box-shadow: 10px 10px 5px #888888;
+  width: 25%;
+}
+
+#contact {
+  width: 50%;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+}
+
+#contact a {
+    vertical-align: top;
+    display: block;
+    *display: inline;
+    zoom: 1;
+}
+
+#follow {
+  width: 50%;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+  margin: auto;
+  padding: 25px 5px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.profile-container {
+    margin-top: 50px;
+}
+
+.bottombar {
+    overflow: hidden;
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.bottombar a {
+    float: center;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.space {
+    width: 100%;
+    display: block;
+    /*display: inline-block;*/
+    font-size: 0;
+    line-height: 0
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  background-image: linear-gradient(-60deg, #000 50%, #ffc904 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:3s;
+}
+
+.bg3 {
+  animation-duration:3s;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
